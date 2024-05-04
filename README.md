@@ -17,6 +17,14 @@
 ```
 docker-compose up -d
 ```
+5. Levantar el proyecto
+```
+  npm run start:dev
+```
+6. Recontruir base de dato con la semmilla
+```
+http://localhost:3000/api/v2/seed
+```
 
 ## Stack usado 
 * MongoDB
