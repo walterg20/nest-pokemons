@@ -17,11 +17,17 @@
 ```
 docker-compose up -d
 ```
-5. Levantar el proyecto
+5. Clonar el archivo ```.env.template``` y renombrar la a ```.env```
+
+6. llenar la variable de entorno definidas en el ```.env```
+
+7. Levantar el proyecto
 ```
   npm run start:dev
 ```
-6. Recontruir base de dato con la semmilla
+
+
+7. Recontruir base de dato con la semmilla
 ```
 http://localhost:3000/api/v2/seed
 ```
